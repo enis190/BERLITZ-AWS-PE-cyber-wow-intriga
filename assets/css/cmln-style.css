@@ -642,6 +642,8 @@ p span {
     border-radius: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
+    color: #FFF;
+    font-family: "IBMPlexSans-Regular";
   }
   .btn-fixed-call a .txt picture {
     background-color: #FFF;
