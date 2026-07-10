@@ -9,11 +9,11 @@ $(document).ready(function () {
 
 /**HEADER */
 $(window).scroll(function () {
-    if (window.scrollY > $("#slider_page").offset().top) {
-        $('#header_page').addClass('c-fixed');
-    } else {
-        $('#header_page').removeClass('c-fixed');
-    }
+    // if (window.scrollY > $("#slider_page").offset().top) {
+    //     $('#header_page').addClass('c-fixed');
+    // } else {
+    //     $('#header_page').removeClass('c-fixed');
+    // }
 });
 
 /**WSP */
@@ -287,7 +287,7 @@ $(document).on('ready', function () {
         speed: 300,
         autoplay: true,
         arrows: false,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         responsive: [{
             breakpoint: 1024,
