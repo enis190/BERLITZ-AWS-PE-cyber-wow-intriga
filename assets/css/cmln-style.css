@@ -448,11 +448,10 @@ p span {
   padding: 4px 7px;
   line-height: 20px;
   color: #004FEF;
-  font-family: "IBMPlexSans-SemiBold";
+  font-family: "IBMPlexSans-Bold";
   font-size: 0.9rem;
 }
 .btn-fixed-call a .txt span {
-  font-family: "IBMPlexSans-BoldItalic";
   display: block;
   font-size: 1.2rem;
   margin-top: -2px;
@@ -628,7 +627,6 @@ p span {
   .btn-fixed-call .txt span {
     font-size: 0.9rem !important;
     display: contents !important;
-    font-family: "IBMPlexSans-SemiBold" !important;
   }
   .btn-fixed-call a {
     padding: 10px 10px 15px 10px;
