@@ -3531,13 +3531,6 @@ p span {
   .hero-title2 {
     padding: 40px;
   }
-  .logo-berlitz {
-    height: 160px;
-    /* Ajusta según el tamaño de tu logo */
-    width: auto;
-    display: block;
-    margin: 43px;
-  }
   .hero-title_mob {
     display: flex;
     flex-direction: column;
@@ -3550,6 +3543,29 @@ p span {
     font-size: 13px;
   }
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .logo-berlitz {
+    display: inline;
+    max-height: 100px;
+    max-height: 130px;
+  }
+}
+@media only screen and (max-width: 867px) and (orientation: landscape) {
+  .logo-berlitz {
+    max-height: 100px;
+  }
+  .hero-title3 {
+    padding-right: 0;
+  }
+  .logo-berlitz2 {
+    height: 250px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 .hero-title {
   display: flex;
   flex-direction: column;
@@ -3856,13 +3872,6 @@ p span {
   .hero-title2 {
     padding: 40px;
   }
-  .logo-berlitz {
-    height: 160px;
-    /* Ajusta según el tamaño de tu logo */
-    width: auto;
-    display: block;
-    margin: 43px;
-  }
   .hero-title_mob {
     display: flex;
     flex-direction: column;
@@ -3875,6 +3884,29 @@ p span {
     font-size: 13px;
   }
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .logo-berlitz {
+    display: inline;
+    max-height: 100px;
+    max-height: 130px;
+  }
+}
+@media only screen and (max-width: 867px) and (orientation: landscape) {
+  .logo-berlitz {
+    max-height: 100px;
+  }
+  .hero-title3 {
+    padding-right: 0;
+  }
+  .logo-berlitz2 {
+    height: 250px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 .hs-button {
   border: 2px solid #FFF;
 }
