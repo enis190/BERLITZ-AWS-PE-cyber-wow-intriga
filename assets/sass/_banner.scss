@@ -1,0 +1,399 @@
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 180px 0px 0px;
+}
+
+.hero-title3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.titulo {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.texto {
+    font-family: Arial, sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #2854c5;
+    line-height: 1;
+}
+
+.logo-berlitz {
+    height: 160px;
+    /* Ajusta según el tamaño de tu logo */
+    width: auto;
+    display: block;
+    margin-left: auto;
+}
+
+.logo-berlitz2 {
+    height: 330px;
+    /* Ajusta según el tamaño de tu logo */
+    width: auto;
+    display: block;
+    margin-left: auto;
+}
+
+.descuento {
+    position: relative;
+    display: inline-block;
+    background: #ef2d7b;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 20px 8px 16px;
+    border-radius: 4px;
+    line-height: 1;
+}
+
+.hero-title2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+
+.titulo {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.texto2 {
+    font-family: Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+}
+
+.descuento2 {
+    position: relative;
+    display: inline-block;
+    background: #163ff8;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 20px 8px 16px;
+    border-radius: 50px;
+    line-height: 1;
+}
+
+.banner_principal {
+    width: 100%;
+    height: auto;
+    /*max-height: 720px;*/
+    position: relative;
+    overflow: hidden;
+    background-color: #0292FD;
+
+    .fondo {
+        background-size: cover;
+        background-position: center top;
+        /* padding-top: 800px; */
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+
+
+
+    * {
+        box-sizing: border-box;
+    }
+
+    img {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    .tienes_el_talento {
+        padding-top: 110px;
+        width: 482px;
+        margin: 0 auto;
+
+    }
+
+    .muneco {
+        width: 172px;
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
+        /*transform: translateY(50%);*/
+    }
+
+
+
+    .left_side.left_side_static {
+
+        @media (min-width:768px) {
+            margin-top: 140px;
+        }
+    }
+
+    .persona {
+        img.personas_mob {
+            display: none;
+            margin-top: 90px;
+        }
+
+        @media (max-width:768px) {
+            img.personas_dsk {
+                display: none;
+            }
+
+            img.personas_mob {
+                display: block;
+            }
+        }
+    }
+
+    .left_side {
+        width: 100%;
+        margin-top: -960px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .subtitulo {
+            width: 100%;
+            color: #ffffff;
+            font-size: 65px;
+            font-family: 'IBMPlexSans-Bold';
+            text-align: center;
+            margin-bottom: 35px;
+            letter-spacing: -0.5px;
+            z-index: 5;
+            line-height: 46px;
+
+            img {
+                display: inline;
+            }
+
+            img.palabra_ingles {
+                max-width: 221px;
+            }
+
+            span {
+                font-family: 'IBMPlexSans-BoldItalic';
+                display: inline;
+                position: relative;
+
+                .flecha {
+                    width: 235px;
+                    height: auto;
+                    position: absolute;
+                    top: calc(100% + -1px);
+                    right: -30px;
+
+                    img {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        .logo {
+            width: 269px;
+            margin-bottom: 15px;
+            z-index: 5;
+        }
+
+        .hashtag {
+            width: 250px;
+            margin-bottom: 35px;
+            z-index: 5;
+            margin-left: -220px;
+        }
+
+        .cuotas {
+            width: 439px;
+            z-index: 5;
+        }
+    }
+
+
+
+
+    .lazo_left {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .lazo_central {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+
+}
+
+@media (max-width:1024px) {
+    .banner_principal {
+
+        .left_side {
+            .subtitulo {
+                width: 100%;
+                color: #ffffff;
+                font-size: 44px;
+
+                img.palabra_ingles {
+                    max-width: 121px;
+                }
+            }
+        }
+
+        .left_side.left_side_static {
+            margin-top: 80px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .banner_principal {
+        height: auto;
+
+
+        .fondo {
+            padding-top: 0px;
+        }
+
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .tienes_el_talento {
+            width: 90%;
+            max-width: 395px;
+        }
+
+        .persona {
+            z-index: 3;
+        }
+
+        .left_side {
+            margin-top: -2px;
+            position: relative;
+            padding-top: 10px;
+
+            &:before {
+                content: '';
+                width: 120%;
+                height: 350px;
+                background: #01BDFF;
+                background: linear-gradient(181deg, rgba(1, 189, 255, 1) 20%, rgba(2, 140, 253, 1) 100%);
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%);
+            }
+
+            .subtitulo {
+                font-size: 46px;
+                line-height: 37px;
+
+
+
+                img.palabra_ingles {
+                    max-width: 122px;
+                }
+
+                span {
+                    .flecha {
+                        width: 140px;
+                        top: calc(100% + -7px);
+                        right: -5px;
+                    }
+                }
+            }
+
+            .logo {
+                width: 220px;
+            }
+
+            .cta {
+                margin-bottom: 30px;
+            }
+
+            .hashtag {
+                width: 206px;
+            }
+        }
+
+        .left_side.left_side_static {
+            margin-top: 0;
+        }
+
+        .muneco {
+            display: none;
+        }
+
+        .lazo_left {
+            left: -72px;
+            width: 150px;
+            bottom: 30px
+        }
+
+        .barra_inferior_banner {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width:576px) {
+    .banner_principal {
+        .fondo {
+            padding-top: 93px;
+        }
+    }
+
+    .hero-title {
+        align-items: center;
+    }
+
+    .hero-title2 {
+        padding: 40px;
+    }
+
+    .logo-berlitz {
+        height: 160px;
+        /* Ajusta según el tamaño de tu logo */
+        width: auto;
+        display: block;
+        margin: 43px;
+    }
+
+    .hero-title_mob {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto2 {
+        font-size: 20px;
+    }
+
+    .descuento2 {
+        font-size: 13px;
+    }
+}
